@@ -138,7 +138,7 @@ def main():
     classifier = ClearanceClassifier()
 
     # Example file path for CSV file
-    csv_file_path = "/Users/roytanga/Desktop/Work APT3065A/Clearance Prof/clearance_app/clearance_dataset.csv"
+    csv_file_path = "/Users/JEREMY/Desktop/APT3025A/APT3025A/clearance_app/clearance_dataset.csv"
 
 
     # Train the model using the CSV file

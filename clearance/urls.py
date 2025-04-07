@@ -5,7 +5,7 @@ from .views import UploadDocumentView
 from django.shortcuts import redirect  # This line of code is used to redirect the work  to the Faculty dashboard Part
 
 urlpatterns = [
-    path('', lambda request: redirect('/faculty_dashboard/')),  # ✅ Root URL redirect
+    path('', lambda request: redirect('/faculty_dashboard/')),  # Root URL redirect
     path('classify/', views.classify_clearance, name='classify_clearance'),
     path('faculty/signup/', views.faculty_signup, name='faculty_signup'),
     path('super/signup/', views.admin_signup, name='admin_signup'),

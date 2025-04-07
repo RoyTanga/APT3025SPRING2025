@@ -26,7 +26,7 @@ logging.basicConfig(level=logging.INFO)
 
 # Initialize the classifier
 model_dir = os.path.join(os.path.dirname(__file__), 'models')
-csv_path = "/Users/roytanga/Desktop/Work APT3065A/Clearance Prof/clearance_app/clearance_dataset.csv"
+csv_path = "/Users/JEREMY/Desktop/APT3025A/APT3025A/clearance_app/clearance_dataset.csv"
   # Update this path
 
 # Delete existing models

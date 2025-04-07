@@ -29,6 +29,7 @@ DEBUG = True
 ALLOWED_HOSTS = []
 
 CSRF_TRUSTED_ORIGINS = ['http://localhost', 'http://127.0.0.1']
+CSRF_TRUSTED_ORIGINS = ['http://127.0.0.1:8000'] # This code has been added because once I login as user and then later as Admin of same device there is a CSRF token issue regarding Cache or Stale Token. Added 1st April 2025
 CSRF_COOKIE_SECURE = False
 CSRF_COOKIE_HTTPONLY = False
 
