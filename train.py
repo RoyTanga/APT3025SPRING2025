@@ -39,7 +39,7 @@ def load_and_preprocess_data(file_content):
 
     return data
 
-# Train the model
+# Trains the model
 def train_model(data):
     # Initialize TfidfVectorizer and MultiLabelBinarizer
     vectorizer = TfidfVectorizer()
